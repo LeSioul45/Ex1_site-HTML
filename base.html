@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>WOOD</title>
+    <link href="styles.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="conteneur">
+        <h1>WOOD</h1>
+        <nav>
+            <ul>
+                <li><a href="#contenu1" id="propos">A propos</a></li>
+                <li><a href="#contenu2" id="portfolio">Portfolio</a></li>
+                <li><a href="#contenu3" id="contact">Contact Moi</a></li>
+                <li><a href="#contenu4" id="video">Vidéosss</a></li>
+            </ul>
+        </nav>
+        <div id="contenu">
+            <div id="contenu1">
+                <article class="gauche">
+                    <h2>01 - A propos</h2>
+                    <h3>Photographe Michel Wood</h3>
+                    <p>
+                        Portfolio du photographe, photographies de Fleurs, de nature et d'environnement, la région Nord et Ouest : la Bretagne, la Basse-Normandie, les Pays de Loire, l'île de Ré, Picardie.
+                    </p>
+                    <h3>Mes compétences</h3>
+                    <ul>
+                        <li>Reportage photo</li>
+                        <li>Photos de studio</li>
+                        <li>Effets spciaux</li>
+                        <li>Développement et Tirages</li>
+                        <li>Photos de mariage</li>
+                    </ul>
+                </article>
+                <div class="droite">A PROPOS</div>
+            </div>
+            <!--fin de contenu1-->
+            <div id="contenu2">
+                <article class="gauche">
+                    <h2>02 - Portfolio</h2>
+                    <p>
+                        <a href="#1" id="lien1"><img src="images-port/img1.jpg" width="400" height="300" /></a>
+                        <a href="#2" id="lien2"><img src="images-port/img2.jpg" width="400" height="300" /></a>
+                        <a href="#3" id="lien3"><img src="images-port/img3.jpg" width="400" height="300" /></a>
+                        <a href="#4" id="lien4"><img src="images-port/img4.jpg" /></a>
+                    </p>
+                </article>
+                <div class="droite">PORTFOLIO</div>
+            </div>
+            <!--fin de contenu2-->
+            <div id="contenu3">
+                <article class="gauche">
+                    <h2>03 - Contact</h2>
+                    <form action="" method="get">
+                        <ul>
+                            <li>
+                                <label for="nom">Nom : </label>
+                                <input type="text" id="nom" name="nom" />
+                            </li>
+                            <li>
+                                <label for="nom">Prénom</label>
+                                <input type="text" id="prenom" name="prenom" />
+                            </li>
+                            <li>
+                                <label for="mail">Mail</label>
+                                <input type="mail" id="mail" name="mail" />
+                            </li>
+                            <li>
+                                <input type="submit" id="envoyer" name="envoyer" value="envoyer" />
+                            </li>
+                        </ul>
+                    </form>
+                </article>
+                <div class="droite">CONTACT</div>
+            </div>
+            <!--fin de contenu3-->
+            <div id="contenu4">
+                <article class="gauche">
+                    <h2>04 - Video</h2>
+                    <video controls>
+              <source src="video/elephant.ogv" />
+              <source src="video/elephant.mp4" />
+              <object
+                type="application/x-shockwave-flash"
+                data="dewtube.swf"
+                width="512"
+                height="384"
+              >
+                <param name="allowFullScreen" value="true" />
+                <param name="movie" value="dewtube.swf" />
+                <param
+                  name="flashvars"
+                  value="movie=video/elephant.flv&amp;width=512&amp;height=384&amp;autostart=1"
+                />
+              </object>
+            </video>
+                </article>
+                <div class="droite">VIDEO</div>
+            </div>
+            <!--fin de contenu4-->
+            <!--fin de contenu-->
+            <footer>&copy; - 2021</footer>
+        </div>
+        <!--fin de conteneur-->
+</body>
+
+</html>
